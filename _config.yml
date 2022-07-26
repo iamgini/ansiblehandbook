@@ -1,10 +1,11 @@
-url: "http://www.kairaleekalanilayam.com/"
+url: "" #http://www.kairaleekalanilayam.com/"
 baseurl: ""
 
 # Site settings
-title: Singapore Kairalee Kala Nilayam
-email: singaporekairaleekalanilayam@gmail.com
-description: "Singapore Kairalee Kala Nilayam, Welcome To The Pioneer INDIAN ART HOUSE of Singapore"
+title      : Ansible for Real Life Automation #Your Awesome Website
+email      : gini@iamgini.com #this is also the email contact forms will go to
+description: "A complete Ansible handbook filled with real life IT automation use cases"
+author     : Gineesh Madapparambath
 
 favicon: 'assets/images/favicon.ico'
 
