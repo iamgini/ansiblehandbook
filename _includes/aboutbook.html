@@ -1,38 +1,45 @@
 <!-- About -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
+<!-- {% if site.locale and site.locale != "" and site.locale != nil %} -->
 <section class="page-section bg-light-gray" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
   <div class="container">
     
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading ">{{ site.data.sitetext[site.locale].aboutbook.title | default: "About Us" }}</h2>
+        <h2 class="section-heading ">About this book</h2>
        <!-- <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | default: "" }}</h3>-->
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted" style="text-align: left;">{{ site.data.sitetext[site.locale].aboutbook.body | markdownify }}</div>
+        <div class="large text-muted" style="text-align: left;">
+          Ansible is a free and open source automation tool to automate and manage the IT infrastructure. With the growing community base and contributions from vendors, Ansible can be used for almost all automation use cases. Ansible for Real Life Automation will teach you how to set up Ansible and remote managed nodes in the production and dev/staging environment and how to handle the management. <br>You will begin by installing and deploying Ansible in your work environment. You will learn automation using simple use cases in your workplace such as collecting system information, weekly reboot, security scanning and so on. Not only Linux machines, you will also learn how to use Ansible to automate Microsoft Windows machines and network devices. You will explore and learn how to begin with the automation use cases for private and public cloud platforms such as VMWare, AWS, GCP and create automation playbooks to manage the cloud infrastructure. Since Ansible is a best fit for most of the DevOps workflow stages, you will also learn how to integrate Ansible within your DevOps workflow. To implement efficient automation solutions, you will also learn the best practices, methods and possible ways to automate non-supported platforms and operations. By the end of this book, you will be proficient in finding and developing real life automation use cases using Ansible.
+        </div>
       </div>
     </div>
   </div>
 </section>
-{% else %}
+<!-- {% else %} -->
 <section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
+        <h2 class="section-heading text-uppercase">
+          About this book
+        </h2>
+        <h3 class="section-subheading text-muted">
+          {{ site.data.sitetext.about.text | default: "" }}ss</h3>
 
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">ssss{{ site.data.sitetext.about.body | markdownify }}</div>
+        <div class="large text-muted" style="text-align: left; padding-right: 100px; padding-left: 100px;">
+          Ansible is a free and open source automation tool to automate and manage the IT infrastructure. With the growing community base and contributions from vendors, Ansible can be used for almost all automation use cases. Ansible for Real Life Automation will teach you how to set up Ansible and remote managed nodes in the production and dev/staging environment and how to handle the management. <br>You will begin by installing and deploying Ansible in your work environment. You will learn automation using simple use cases in your workplace such as collecting system information, weekly reboot, security scanning and so on. Not only Linux machines, you will also learn how to use Ansible to automate Microsoft Windows machines and network devices. You will explore and learn how to begin with the automation use cases for private and public cloud platforms such as VMWare, AWS, GCP and create automation playbooks to manage the cloud infrastructure. Since Ansible is a best fit for most of the DevOps workflow stages, you will also learn how to integrate Ansible within your DevOps workflow. To implement efficient automation solutions, you will also learn the best practices, methods and possible ways to automate non-supported platforms and operations. By the end of this book, you will be proficient in finding and developing real life automation use cases using Ansible.  
+        </div>
       </div>
     </div>
   </div>
 </section>
-{% endif %}
+<!-- {% endif %} -->
 <!-- End About -->
 

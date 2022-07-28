@@ -44,16 +44,24 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  # - title: twitter
+  #   url: https://twitter.com/GiniGangadharan
+  #   icon: "fab fa-twitter"
+  #- url: https://facebook.com
+  #  icon: "fab fa-facebook-f"
+  
+  - title: linkedin
+    url: https://www.linkedin.com/in/gineesh/
+    icon: "fab fa-linkedin-in"
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/ginigangadharan/
+    icon: "fab fa-github"
+  - title: instagram
+    url: https://www.instagram.com/ginigangadharan/
+    icon: "fab fa-instagram"
+  - title: twitter
+    url: https://twitter.com/GiniGangadharan
+
 
 # Postal address (add as many lines as necessary)
 address:
