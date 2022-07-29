@@ -24,8 +24,9 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
+    padding: 15px 0px 15px 0px;
 }
 
 p.large {
@@ -57,9 +58,10 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-family: {{ site.data.template.font.updated }};
+    font-weight: 800;
+    letter-spacing: -0.875px;
 }
 
 .img-centered {
@@ -77,7 +79,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -128,7 +130,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-size: 18px;
     font-weight: 700;
     color: #000;
@@ -182,7 +184,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
+    /* font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive; */
+    font-family: {{ site.data.template.font.updated }};
     color: #000;
     font-weight: 800;
      /* #{{ site.data.template.color.primary }}; */
@@ -215,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-weight: 400;
     letter-spacing: 1px;
     color: #000;
@@ -305,7 +308,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -328,7 +331,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
+        font-family: {{ site.data.template.font.updated }};
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -703,28 +706,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     font-weight: 700;
     color: #bbb;
 }
@@ -741,7 +744,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     line-height: 40px;
 }
 
@@ -749,7 +752,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.updated }};
     line-height: 40px;
 }
 
