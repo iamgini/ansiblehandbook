@@ -6,8 +6,13 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    font-family: {{ site.data.template.font.updated }};
+    /* font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif; */
     color: #{{ site.data.template.color.secondary-dark }};
+    
 }
 
 .text-muted {
@@ -285,7 +290,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 140px;
     padding-bottom: 50px;
 }
 
@@ -338,6 +343,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    text-transform: none;
 }
 
 section h3.section-subheading {
@@ -870,4 +876,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+
+rounded-circle {
+    border-radius: 50%;
 }
