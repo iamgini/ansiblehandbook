@@ -8,66 +8,30 @@
         <div class="team-member-single" >
           <img class="mx-auto rounded-circle" src="/img/gineesh-250x250.png" alt="Gineesh Madapparambath" style="border-radius: 50%; padding: 50px 0px 50px 0px;">
           </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.name | default: "" }}Gineesh Madapparambath</h3>
-        <div class="large text-muted" style="text-align: left;">
-          <p>
+
+          <div class="team-member-single text-muted" > <h2 class="section-subheading text-muted">Gineesh Madapparambath</h3>
+            </div>
+
+          <div class="team-member-single text-muted" style="text-align: left;"> 
+            <p>
             <a href="https://www.linkedin.com/in/gineesh/" target="_new" style="color: #000;"><strong>Gineesh</strong></a> has over 15+ years of experience in IT Service Management and consultancy with experience in planning, deploying and supporting Linux based projects.
-          </p>
+            </p>
           <p>
           He has designed, developed and deployed Automation solutions based on Ansible and Ansible Automation Platform (Formerly Ansible Tower), for bare metal/Virtual server build, patching, license management, Network Operations and custom monitoring. Gineesh has coordinated, designed and deployed servers in data centers globally and has cross-cultural experience in classic, private cloud (OpenStack, VMWare)virtual and public cloud environments (AWS, Azure, Google Cloud). Gineesh has handled multiple roles such as Systems Engineer, Automation Specialist, Infrastructure Designer and content author. 
         </p>
         <p>
         His primary focus is on IT and application automation using Ansible, containerization using OpenShift and Kubernetes and Infrastructure automation using Terraform.
       </p>
-        </div>
+            </div>
+
+
       </div>
     </div>
+   
   </div>
 </section>
 
 
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
-  <div class="container">
-    
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading ">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
-        <div class="team-member-single" >
-          <img class="mx-auto rounded-circle" src="img/team/gineesh-250x250.png" alt="Gineesh Madapparambath">
-          </div>
 
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.name | default: "" }}</h3>
-        <div class="large text-muted" style="text-align: left;">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
-      </div>
-    </div>
-  </div>
-</section>
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">ssss{{ site.data.sitetext.about.body | markdownify }}</div>
-      </div>
-    </div>
-  </div>
-</section>
-{% endif %}
 <!-- End About -->
 
