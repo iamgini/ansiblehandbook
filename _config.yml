@@ -71,3 +71,16 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+# FAQs
+faqs:
+  - question: Is there a PDF or soft copy available?
+    answer: Yes, the book is available in paperback (Hard copy or print) and eBook (PDF, Mobi, Kindly) formats.
+  - question: Can I get my book delivered to India?
+    answer: "Yes, it also depends on from which site you are ordering. Eg: if you are ordering from Amazon, then follow the Amazon delivery availability."
+  - question: Can I learn everything about Ansible by reading this book?
+    answer: No, the book is intended for covering the use cases which you can implement with Ansible automation. The book will help you to start learning Ansible, understand how to find the use cases and how to start with real-life automation in your IT environment.
+
+reviews:
+  - name: image

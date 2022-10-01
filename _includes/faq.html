@@ -7,30 +7,17 @@
         <h2 class="section-heading " id="faq">Frequently Asked Questions</h2>
 
           <div class="team-member-single text-muted" style="text-align: left;"> 
-            <p>
-           <strong>
-            Q. Is there a PDF or soft copy available?
-           </strong>
-            <br>
-            A. Yes, the book is available in paperback (Hard copy or print) and eBook (PDF, Mobi, Kindly) formats.
-            </p>
 
-            <p>
-              <strong>
-                Q. Can I get my book delivered to India?
-              </strong>
-               <br>
-               A. Yes, it also depends on from which site you are ordering. Eg: if you are ordering from Amazon, then follow the Amazon delivery availability.
-               </p>
-
-               <p>
+           
+              {% for faq in site.faqs %}
+                <p>
                 <strong>
-                  Q. Can I learn everything about Ansible by reading this book?
+                 Q. {{ faq.question }}
                 </strong>
                  <br>
-                 A. No, the book is intended for covering the use cases which you can implement with Ansible automation. The book will help you to start learning Ansible, understand how to find the use cases and how to start with real-life automation in your IT environment.
+                 A. {{ faq.answer }}
                  </p>
-      
+              {% endfor %}      
             </div>
 
 
